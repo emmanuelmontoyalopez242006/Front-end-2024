@@ -33,4 +33,5 @@ header {
 .as {
   color: white;
   background-color: red;
+  column-rule: aliceblue;
 }
