@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+* Estilos de la barra de navegación
+*/
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0px 0px 60px 0px;
+  background-color: black;
+}
+
+.container > header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header > nav {
+  width: 75%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul:nth-child(1) {
+  list-style: none;
+}
+
+.nav ul:nth-child(2) {
+  list-style: none;
+}
+
+.li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ul-nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.active {
+  color: #c42c06;
+}
+
+/*
+* Estilos de la primera sección
+*/
+
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: inherit;
+}
+
+.section div:nth-child(1) {
+  width: 500px;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.div > h1 {
+  color: white;
+  font-size: 2.3rem;
+}
+
+.div > p {
+  color: white;
+}
+
+.search {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.search > input {
+  border: none;
+  width: 80%;
+  outline: none;
+}
+
+.search > img {
+  width: 20px;
+}
+
+.section div:nth-child(2) img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+/*
+* Estilos de la segunda sección
+*/
+
+.top-stories {
+  width: 100%;
+  height: auto;
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0px 70px 0px;
+}
+
+.top-stories > div:nth-child(1) {
+  width: 75%;
+}
+.div > h2 {
+  color: white;
+  font-size: 2rem;
+  padding: 10px 0px;
+}
+
+.div p {
+  color: white;
+  padding: 15px 0px;
+}
+
+.top-stories > div:nth-child(2) {
+  width: 75%;
+  height: 70%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+div.card {
+  width: 300px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.169);
+}
+
+.description {
+  padding: 20px;
+}
+
+.description p {
+  font-weight: bold;
+}
+.most-popular {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.most-popular > div {
+  width: 75%;
+  height: 600px;
+}
+
+.title > h2 {
+  color: white;
+  font-size: 2rem;
+  padding: 40px 0px;
+}
+
+.popular {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.popular > div:nth-child(1) {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.four > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 10px;
+}
+
+.img {
+  width: 30%;
+  height: 100%;
+  background-color: #000000;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.img > img {
+  width: 100%;
+}
+
+.popular > div:nth-child(2) {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 10px;
+}
+
+.one {
+  width: 100%;
+  height: 40%;
+}
+
+.one img {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
